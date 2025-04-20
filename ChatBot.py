@@ -8,7 +8,7 @@ def simple_chatbot():
         user_input = input("You: ").lower()
         
         # Exit condition
-        if user_input == 'bye':
+        if user_input == 'byee':
             print("ChatBot: Goodbye! Have a nice day.")
             break
             
@@ -31,7 +31,7 @@ def simple_chatbot():
             
         # Time patterns (very basic)
         elif re.search(r'time|what time is it', user_input):
-            print("ChatBot: I don't actually have access to the current time. Sorry!")
+            print("ChatBot: I don't actually have access to the current time. I am Sorry!")
             
         # Thank you patterns
         elif re.search(r'thank|thanks|appreciate', user_input):
